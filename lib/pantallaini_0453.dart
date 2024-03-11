@@ -14,6 +14,7 @@ class _Pantallaini_0453State extends State<Pantallaini_0453> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Pantalla inicial Cisneros"),
+        backgroundColor: Colors.amber,
       ),
       body: Center(
         child: Column(

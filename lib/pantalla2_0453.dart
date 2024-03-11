@@ -9,6 +9,7 @@ class Pantalla2 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Pantalla 2 cisneros 0453"),
+        backgroundColor: Colors.green,
       ),
       body: Center(
           child: Column(
