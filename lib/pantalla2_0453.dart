@@ -11,7 +11,7 @@ class Pantalla2 extends StatelessWidget {
         title: const Text("Pantalla 2 cisneros 0453"),
         backgroundColor: Colors.green,
       ),
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: Colors.amberAccent,
       body: Center(
         child: Container(
           width: double.infinity,
