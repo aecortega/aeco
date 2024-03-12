@@ -12,16 +12,16 @@ class Pantalla1 extends StatelessWidget {
         title: const Text("Primer pantalla Cisneros 0453"),
         backgroundColor: Colors.black,
       ),
+      backgroundColor: Colors.blue,
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ElevatedButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, "/pantalla2_0453");
-                },
-                child: const Text("Pantalla 2")),
-          ],
+        child: Card(
+          child: Padding(
+            padding: EdgeInsets.all(16),
+            child: Text(
+              'Tarjeta de cisneros',
+              style: TextStyle(fontSize: 30),
+            ),
+          ),
         ),
       ),
     );
