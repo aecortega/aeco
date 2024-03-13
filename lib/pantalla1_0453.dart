@@ -10,17 +10,20 @@ class Pantalla1 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Primer pantalla Cisneros 0453"),
-        backgroundColor: Colors.black,
+        backgroundColor: Color(0xffcfa99b),
       ),
-      backgroundColor: Colors.blue,
+      backgroundColor: Color(0xffcca698),
       body: Center(
-        child: Card(
-          child: Padding(
-            padding: EdgeInsets.all(16),
-            child: Text(
-              'Tarjeta de cisneros',
-              style: TextStyle(fontSize: 30),
-            ),
+        child: Container(
+          color: Color(0xffa88274),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Cisneros 0453',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),

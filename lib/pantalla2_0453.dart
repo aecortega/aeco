@@ -11,23 +11,21 @@ class Pantalla2 extends StatelessWidget {
         title: const Text("Pantalla 2 cisneros 0453"),
         backgroundColor: Colors.green,
       ),
-      backgroundColor: Colors.amberAccent,
+      backgroundColor: Colors.greenAccent,
       body: Center(
         child: Container(
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                'Tarjeta de Cisneros',
-                style: TextStyle(fontSize: 30),
-              ),
-            ),
+          color: Color(0xff69e06d),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Pantalla 2 de cisneros 0453',
+            style: TextStyle(fontSize: 30),
           ),
         ),
-        //   ),
       ),
     );
   } //fin widget
